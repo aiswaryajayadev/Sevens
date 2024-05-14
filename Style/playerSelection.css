@@ -1,6 +1,6 @@
 
 .playerSelection-body{
-    background-image: url("../Assests/ground.jpg");
+    background-image: url("../Assets/ground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -34,7 +34,7 @@
     width: 100px;
     height: 100px;
     padding-left: 50px;
-    background-image: url("../Assests/download.jpg");
+    background-image: url("../Assets/download.jpg");
    background-size: cover;
    background-repeat: no-repeat;
 }
