@@ -1,0 +1,25 @@
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3ca512;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+.kick{
+    height: 100px;
+    position: absolute;
+    top:200px;
+}
+.kick-btn{
+    z-index: 100;
+}
+body{
+    background-color: #3e8948;
+}
+button:hover {
+    background-color: #75e24a; 
+}
