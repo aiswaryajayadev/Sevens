@@ -1,0 +1,47 @@
+.match-container{
+    display: grid;
+    align-items: center;
+    gap: 2.5rem;
+    border-radius: 1rem;
+    background-color: blur(20px);
+
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-image: url("../Assets/match-bg.jpg");
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif; 
+}
+
+.match-heading{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.match-box{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-around;
+    backdrop-filter: blur(20px);
+    height: 120px;
+    border-radius: 1rem;
+    border: 5px solid black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+    .match-box:hover{
+        backdrop-filter: blur(90px);
+        transform: scale(1.03);
+    }
