@@ -1,0 +1,70 @@
+.scoreCardSession{
+    background-color: azure;
+    height: 100vh;
+    padding-top: 100px;
+    background-image: url("../Assests/360_F_650781022_PbHsGtKoOiJL29Wk9BD8fIVMxlkQbhXC.jpg");
+    background-size: cover;
+}
+
+.scoreCardTable {
+    width: 40%;
+    height: 300px;
+    border: 1px solid white;
+    text-align:center;
+    border-radius: 40%;
+    margin: auto;
+    border-radius: 3%;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    transition: all 1s ease-in;
+
+}
+
+  
+  .scoreCardHeadRow, .scoreCardData {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .rowStyle:nth-child(even) {background-color: #636161;}
+
+  .scoreCardHead {
+    background-color: #001829;
+    color: white;
+  }
+.tableHead{
+    margin-bottom: 20px;
+    margin: auto;
+    color: white;
+    
+}
+
+.scoreCardOutline{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.scoreCardOutline .button{
+    display: flex;
+    justify-content: center;
+}
+.ScoreCardbutton{
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20%;
+    transition: all 1ms ease-in;
+}
+
+
+.ScoreCardbutton:hover{
+    background-color:#001829;
+    color: white;
+}
+
+.ScoreCardbuttonDiv{
+    margin: auto;
+}
