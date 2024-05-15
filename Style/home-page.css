@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.home-page-a{
+    text-decoration: none;
+    color: white;
+}
+.home-page-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('football_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-page-login-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.home-page-login {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    font-family: 'Caveat', cursive;
+    margin-bottom: 30px;
+    
+    background: repeating-conic-gradient(from var(--a), #ff2770 0%, #ff2770 5%, transparent 5%, transparent 40%, #ff2770 50%);
+    animation: animate 4s linear infinite, animate 4s linear infinite; /* Add animation with a delay of -1s */
+    border-radius:20px;
+}
+
+@property --a {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animate {
+    0% {
+        --a: 0deg;
+    }
+    100% {
+        --a: 360deg;
+    }
+}
+.home-page-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.home-page-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.home-page-login::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: repeating-conic-gradient(from var(--a), #273dff 0%, #273dff 5%, transparent 5%, transparent 40%, #273dff 50%);
+    animation: animate 4s linear infinite;
+    animation-delay: -1s; 
+    border-radius:20px;
+}
+
+.home-page-login::after{
+    content:'';
+    position:absolute;
+    inset:8px;
+    background:rgb(29, 26, 62);
+}
