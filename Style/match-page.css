@@ -4,13 +4,10 @@
     gap: 2.5rem;
     border-radius: 1rem;
     background-color: blur(20px);
-
 }
-
 body {
     
-    margin: 0;
-    padding: 0;
+    
     background-image: url("../Assets/match-bg.jpg");
     background-size: cover; 
     background-position: center; 
@@ -18,26 +15,19 @@ body {
 }
 
 .match-heading{
-    text-align: center;
-    color: aliceblue;
     font-weight: 600;
     font-size: 40px;
+    width: 100vw;
     
 }
 
 .match-box{
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    justify-content: space-around;
-    backdrop-filter: blur(20px);
-    height: 120px;
+       backdrop-filter: blur(20px);
+    height: 110px;
     border-radius: 1rem;
     border: 5px solid black;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    margin-left: 20px;
-    margin-right: 20px;
 
 }
 
