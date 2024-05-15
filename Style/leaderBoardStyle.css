@@ -1,11 +1,10 @@
-.scoreCardSession{
+.leaderBoardSession{
     height: 100vh;
-    background-image: url("../Assests/360_F_650781022_PbHsGtKoOiJL29Wk9BD8fIVMxlkQbhXC.jpg");
+    background-image: url("../Assests/pexels-pixabay-47343.jpg");
     background-size: cover;
-    margin-bottom: 0px;
 }
 
-.scoreCardTable {
+.leaderBoardTable {
     width: 40%;
     height: 300px;
     border: 1px solid white;
@@ -20,17 +19,25 @@
 }
 
   
-  .scoreCardHeadRow, .scoreCardData {
+  .leaderBoardHeadRow, .leaderBoardData {
     text-align: center;
     padding: 8px;
   }
+
+  .leaderBoardRow .leaderBoardHeadRow:hover {background-color: rgb(150, 149, 149);}
   
   .rowStyle:nth-child(even) {background-color: #636161;}
 
-  .scoreCardHead {
-    background-color: #001829;
+  .leaderBoardHead {
+    background-color: #003b03;
     color: white;
   }
+.leaderBoardHead{
+    margin-bottom: 20px;
+    margin: auto;
+    color: white;
+    
+}
 .tableHead{
     margin-bottom: 20px;
     margin: auto;
@@ -39,18 +46,18 @@
     
 }
 
-.scoreCardOutline{
+.leaderBoardOutline{
     display: block;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.scoreCardOutline .button{
+.leaderBoardOutline .button{
     display: flex;
     justify-content: center;
 }
-.ScoreCardbutton{
+.leaderBoardButton{
     width: 100px;
     margin-right: 10px;
     margin-top: 20px;
@@ -60,16 +67,19 @@
 }
 
 
-.ScoreCardbutton:hover{
-    background-color:#001829;
+.leaderBoardButton:hover{
+    background-color: #003b03;
     color: white;
 }
 
-.ScoreCardbuttonDiv{
+.leaderBoardButtonDiv{
     margin: auto;
 }
 
-@keyframes scorecard {
+
+
+
+@keyframes leaderBoard {
     0%   {top:-200px;}
     /* 25%  {top:-150px;}
     50%  {top:-100px;}
@@ -78,9 +88,9 @@
   }
   
   /* The element to apply the animation to */
-  .scoreCardOutline {
+  .leaderBoardOutline {
     
     position: relative;
-    animation-name: scorecard;
+    animation-name: leaderBoard;
     animation-duration: 1s;
   }
