@@ -1,0 +1,96 @@
+.leaderBoardSession{
+    height: 100vh;
+    background-image: url("../Assests/pexels-pixabay-47343.jpg");
+    background-size: cover;
+}
+
+.leaderBoardTable {
+    width: 40%;
+    height: 300px;
+    border: 1px solid white;
+    text-align:center;
+    border-radius: 40%;
+    margin: auto;
+    border-radius: 3%;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    transition: all 1s ease-in;
+
+}
+
+  
+  .leaderBoardHeadRow, .leaderBoardData {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .leaderBoardRow .leaderBoardHeadRow:hover {background-color: rgb(150, 149, 149);}
+  
+  .rowStyle:nth-child(even) {background-color: #636161;}
+
+  .leaderBoardHead {
+    background-color: #003b03;
+    color: white;
+  }
+.leaderBoardHead{
+    margin-bottom: 20px;
+    margin: auto;
+    color: white;
+    
+}
+.tableHead{
+    margin-bottom: 20px;
+    margin: auto;
+    color: white;
+    margin-top: 100px;
+    
+}
+
+.leaderBoardOutline{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leaderBoardOutline .button{
+    display: flex;
+    justify-content: center;
+}
+.leaderBoardButton{
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20%;
+    transition: all 1ms ease-in;
+}
+
+
+.leaderBoardButton:hover{
+    background-color: #003b03;
+    color: white;
+}
+
+.leaderBoardButtonDiv{
+    margin: auto;
+}
+
+
+
+
+@keyframes leaderBoard {
+    0%   {top:-200px;}
+    /* 25%  {top:-150px;}
+    50%  {top:-100px;}
+    75%  {top:-50px;} */
+    100% { top:0px; transform: scale(1.01);}
+  }
+  
+  /* The element to apply the animation to */
+  .leaderBoardOutline {
+    
+    position: relative;
+    animation-name: leaderBoard;
+    animation-duration: 1s;
+  }
