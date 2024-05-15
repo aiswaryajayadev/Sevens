@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../Style/ScoreCardStyle.css">
 </head>
 
@@ -16,25 +18,128 @@
                 <h2>SCORE CARD</h2>
             </div>
 
-            <table class="scoreCardTable">
-                <tr class="scoreCardHeadRow rowStyle">
-                    <th class="scoreCardHead">userid</th>
-                    <th class="scoreCardHead">Scores</th>
-                </tr>
-                <tr class="scoreCardRow  rowStyle">
-                    <td class="scoreCardData">user1</td>
-                    <td class="scoreCardData">50</td>
-                </tr>
-                <tr class="scoreCardRow rowStyle">
-                    <td class="scoreCardData">user2</td>
-                    <td class="scoreCardData">50</td>
-                </tr>
-                <tr class="scoreCardRow rowStyle">
-                    <td class="scoreCardData">user3</td>
-                    <td class="scoreCardData">50</td>
-                </tr>
+            <div class="scoreCardContent">
+                <div class="match-summary">
+                    <div class="teams">
+                        <div class="team">
+                            <img src="team1_icon.png" alt="Team 1 Icon">
+                            <p>Team name</p>
+                        </div>
+                        <div class="team">
+                            <img src="team2_icon.png" alt="Team 2 Icon">
+                            <p>Team name</p>
+                        </div>
+                    </div>
+                    <div class="score">
+                        <h2>2-1</h2>
+                    </div>
+                    <div class="goals">
+                        <h3>Goals</h3>
+                        <div class="goal">
+                            <div>Player A (Team 1) - 10'</div>
+                            <div>Assisted by: Player X</div>
+                        </div>
+                        <div class="goal">
+                            <div>Player B (Team 2) - 25'</div>
+                            <div>Assisted by: Player Y</div>
+                        </div>
+                        <div class="goal">
+                            <div>Player C (Team 1) - 40'</div>
+                            <div>Assisted by: Player Z</div>
+                        </div>
+                        
+                    </div> 
+                </div> 
 
-            </table>
+            
+
+                <div class="playerRating">
+                    <table class="playerRatingTable">
+                        <tr class="playerRatingTableHead">
+                            <th>Player</th>
+                            <th>Rating</th>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        <tr class="playerRatingTableDataRow">
+                            <td class="playerName"></td>
+                            <td class="playerRate"></td>
+                        </tr>
+                        
+                    </table>
+                </div>
+
+                <table class="scoreCardTable">
+                    <tr class="scoreCardHeadRow rowStyle">
+                        <th class="scoreCardHead">userid</th>
+                        <th class="scoreCardHead">Scores</th>
+                    </tr>
+                    <tr class="scoreCardRow  rowStyle">
+                        <td class="scoreCardData">user1</td>
+                        <td class="scoreCardData">50</td>
+                    </tr>
+                    <tr class="scoreCardRow rowStyle">
+                        <td class="scoreCardData">user2</td>
+                        <td class="scoreCardData">50</td>
+                    </tr>
+                    <tr class="scoreCardRow rowStyle">
+                        <td class="scoreCardData">user3</td>
+                        <td class="scoreCardData">50</td>
+                    </tr>
+
+                </table>
+
+            </div>
 
             <div class="ScoreCardbuttonDiv">
                 <button class="ScoreCardbutton">Play Again</button>
@@ -47,4 +152,4 @@
 
 </body>
 
-</html>
+</html> 
