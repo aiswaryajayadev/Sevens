@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es2017",                     /* Specify ECMAScript target version */
+      "module": "ESNext",                /* Specify module system */
+      "outDir": "./dist",                  /* Redirect output structure to the directory */
+      "strict": true,                      /* Enable all strict type-checking options */
+      "esModuleInterop": true,
+      "removeComments": true,             /* Enables emit interoperability between CommonJS and ES Modules */
+      "skipLibCheck": true,                /* Skip type checking of declaration files */
+      "noEmit": false ,
+      "lib":  ["DOM","ES2016"]             
+    },
+    "include": ["./ts/**/*.ts", "ts/testimonals.ts"],            /* Specify files to include for compilation */
+    "exclude": ["node_modules"]            /* Specify files to exclude from compilation */
+  }
