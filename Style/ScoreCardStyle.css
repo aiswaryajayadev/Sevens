@@ -21,6 +21,7 @@
   background-color: white;
   width: 400px;
   height: auto;
+  transition: all 1s ease-in;
 }
 .teams {
   display: flex;
@@ -100,7 +101,7 @@
   
     padding: 10px 10px 10px 10px; 
     background-color: white;
-    transition: all 1s ease-in;
+    transition: all 1s ease-in
 
 }
 
@@ -143,9 +144,12 @@
     margin-top: 20px;
     height: 30px;
     border-radius: 20%;
-    transition: all 1ms ease-in;
+    transition: all 1s ease-in;
 }
 
+.match-summary:hover, .playerRatingTable:hover, .scoreCardTable:hover{
+  transform: scale(1.05);
+}
 
 .ScoreCardbutton:hover{
     background-color:#001829;
@@ -172,4 +176,7 @@
     animation-duration: 1s;
   } 
 
-  
+  .scorecardbtn{
+    text-decoration: none;
+    
+  }

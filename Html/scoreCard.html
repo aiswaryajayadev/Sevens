@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,14 +19,14 @@
             </div>
 
             <div class="scoreCardContent">
-                <div class="match-summary">
+                <div id="matchCard" class="match-summary">
                     <div class="teams">
                         <div class="team">
-                            <img src="team1_icon.png" alt="Team 1 Icon">
+                            <img src="" alt="Team 1 Icon">
                             <p>Team name</p>
                         </div>
                         <div class="team">
-                            <img src="team2_icon.png" alt="Team 2 Icon">
+                            <img src="" alt="Team 2 Icon">
                             <p>Team name</p>
                         </div>
                     </div>
@@ -54,68 +54,11 @@
             
 
                 <div class="playerRating">
-                    <table class="playerRatingTable">
+                    <table id="playerMatchRating" class="playerRatingTable">
                         <tr class="playerRatingTableHead">
                             <th>Player</th>
                             <th>Rating</th>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        <tr class="playerRatingTableDataRow">
-                            <td class="playerName"></td>
-                            <td class="playerRate"></td>
-                        </tr>
-                        
+                        </tr> 
                     </table>
                 </div>
 
@@ -142,13 +85,16 @@
             </div>
 
             <div class="ScoreCardbuttonDiv">
-                <button class="ScoreCardbutton">Play Again</button>
-                <button class="ScoreCardbutton">Exit</button>
-                <button class="ScoreCardbutton">Feedback</button>
-                <button class="ScoreCardbutton">Full Result</button>
+                <button class="ScoreCardbutton"><a class="scorecardbtn" href="../Html/match-select.html">Play Again</a></button>
+                <button class="ScoreCardbutton"><a class="scorecardbtn" href="../Html/home-page.html">Exit</a></button>
+                <button class="ScoreCardbutton"><a class="scorecardbtn" href="../Html/feedback.html">Feedback</a></button>
+                <button class="ScoreCardbutton"><a class="scorecardbtn" href="../Html/leaderBoard.html">Leaderboard</a></button>
+
             </div>
         </div>
     </section>
+
+    <script src="../api/scoreCard.js"></script>
 
 </body>
 
