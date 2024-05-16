@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../Style/leaderBoardStyle.css">
 </head>
+
 <body>
-    <section class="leaderBoardSession">
-        <div class="leaderBoardOutline">
-
-            <div class="tableHead">
-                <h2>Leader Board List</h2>
+    <section class="leaderBoardSession vh-100 d-flex align-items-center"
+        style="background-image: url('../Assets/leaderboard.jpg'); background-size: cover;">
+        <div class="container text-center">
+            <div class="row justify-content-center mb-4 animated fadeInUp">
+                <div class="col-12">
+                    <h2 class="text-white">Leader Board List</h2>
+                </div>
             </div>
 
-            <table class="leaderBoardTable">
-                <tr class="leaderBoardHeadRow rowStyle">
-                    <th class="leaderBoardHead">userid</th>
-                    <th class="leaderBoardHead">Total Points</th>
-                </tr>
-                <tr class="leaderBoardRow  rowStyle">
-                    <td class="leaderBoardData">user1</td>
-                    <td class="leaderBoardData">50</td>
-                </tr>
-                <tr class="leaderBoardRow rowStyle">
-                    <td class="leaderBoardData">user2</td>
-                    <td class="leaderBoardData">50</td>
-                </tr>
-                <tr class="leaderBoardRow rowStyle">
-                    <td class="leaderBoardData">user3</td>
-                    <td class="leaderBoardData">50</td>
-                </tr>
-
-            </table>
-
-            <div class="leaderBoardButtonDiv">
-                <button class="leaderBoardButton">Play Again</button>
-                <button class="leaderBoardButton">Exit</button>
-                <button class="leaderBoardButton">Feedback</button>
+            <div class="row justify-content-center animated fadeInUp" style="animation-delay: 0.5s;">
+                <div class="col-md-8">
+                    <table class="table table-bordered table-hover">
+                        <thead class="bg-success text-white">
+                            <tr>
+                                <th>userid</th>
+                                <th>Total Points</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-light">
+                                <td>user1</td>
+                                <td>50</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>user2</td>
+                                <td>50</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>user3</td>
+                                <td>50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
+            <div class="row justify-content-center animated fadeInUp" style="animation-delay: 1s;">
+                <div class="col-auto">
+                    <button class="btn btn-success text-white mx-2 my-2">Play Again</button>
+                    <button class="btn btn-success text-white mx-2 my-2">Exit</button>
+                    <button class="btn btn-success text-white mx-2 my-2">Feedback</button>
+                </div>
+            </div>
         </div>
-
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMN2gk3Kf2yZuSgMjXGfm1lx2RM1b8a4f5PRAy5t6Rv6w2qGd0y5V0XmcXQf6J6f"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGgumwB8Gd4zyA5f3SXbFnfBdKh3f6fGmAFN1SAgw5k2y5iPf5d3Lrgmoa0"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
