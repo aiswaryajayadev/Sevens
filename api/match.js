@@ -5,7 +5,7 @@ const fetchData = async () => {
     const productContainer = document.getElementById('match-container-id');
     matches.map((match) => {
         let productCard = document.createElement('div');
-        productCard.className = "card product-card";
+        productCard.className = " product-card";
         productCard.innerHTML = `
             
 
