@@ -29,3 +29,12 @@ body{
 button:hover {
     background-color: #75e24a; 
 }
+
+.circular-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    right: 50px;
+}
