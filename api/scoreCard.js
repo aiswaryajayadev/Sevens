@@ -35,11 +35,6 @@ const fetchData = async () => {
     productContainer.appendChild(productCard);
   });
 
-
-  
-
-
-
 }
 
 fetchData();
@@ -78,3 +73,30 @@ const matchScoreCard = async () => {
 
 
 matchScoreCard();
+
+
+const ScordBoardData = async () => {
+  const jsonData = await fetch("http://localhost:3000/users");  
+    let result = await jsonData.json();
+    result.sort((a, b) => b.match_score - a.match_score);
+    console.log(result);
+
+   
+    const scoreBoardContainer = document.getElementById("t-body");
+
+    result.map((players) => {
+      let scoreBoardCard = document.createElement("tr");
+      scoreBoardCard.className = "scoreCardHeadRow  rowStyle";
+      scoreBoardCard.innerHTML = `
+         
+      <th class="scoreCardTableData scoreCardDataname">${players.username}</th>
+      <th class="scoreCardTableData scoreCardDatascore">${players.match_score}</th>
+   
+              `;
+   
+              scoreBoardContainer.appendChild(scoreBoardCard);
+    });
+ 
+  }
+
+  ScordBoardData();

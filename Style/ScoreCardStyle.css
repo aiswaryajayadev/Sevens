@@ -1,5 +1,5 @@
  .scoreCardSession{
-    height: 100vh;
+    height: 100%;
     background-image: url("../Assets/scorecard.jpg");
     background-size: cover;
     margin-bottom: 0px;
@@ -8,6 +8,7 @@
 .scoreCardContent{
   display: flex;
   flex-direction: row;
+  
 }
 
 .match-summary {
@@ -64,20 +65,21 @@
 .playerRatingTable {
   width: 350px;
   height: auto;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   text-align: center;
-
+  
   margin: auto;
   padding: 10px;
   background-color: white;
   transition: all 1s ease-in;
 }
 
+
 .playerRatingTableHeadRow, .playerRatingTableDataRow {
   text-align: center;
   padding: 8px;
   height: 25px;
-  width: 50px
+  width: 50px;
 }
 
 .playerRatingTableDataRow:nth-child(even) { 
@@ -87,6 +89,7 @@
 .playerRatingTableHead {
   background-color: #001829;
   color: white;
+  
   
 }
 
@@ -124,7 +127,7 @@
     margin: auto;
     color: white;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     
 }
 
@@ -146,6 +149,7 @@
     height: 30px;
     border-radius: 20%;
     transition: all 1s ease-in;
+    
 }
 
 .match-summary:hover, .playerRatingTable:hover, .scoreCardTable:hover{
@@ -180,4 +184,7 @@
   .scorecardbtn{
     text-decoration: none;
     
-  }
+  } 
+
+
+
