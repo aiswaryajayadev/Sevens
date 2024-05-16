@@ -81,6 +81,7 @@
               "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/real-madrid.png",
               "players": [
                 {
+                  "player_id": 1,
                   "name": "Thibo Courtois",
                   "position": "GK",
                   "rating": 7.9,
@@ -89,6 +90,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 2,
                   "name": "Antonio Rudiger",
                   "position": "DF",
                   "rating": 8.1,
@@ -97,6 +99,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 3,
                   "name": "Dani Carvajal",
                   "position": "DF",
                   "rating": 6.9,
@@ -105,6 +108,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 4,
                   "name": "Jude Bellingham",
                   "position": "MF",
                   "rating": 8.9,
@@ -113,6 +117,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 5,
                   "name": "Luka Modric",
                   "position": "MF",
                   "rating": 7.4,
@@ -121,6 +126,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 6,
                   "name": "Vini Jr",
                   "position": "FW",
                   "rating": 9.0,
@@ -129,6 +135,7 @@
                   "team": 1
                 },
                 {
+                  "player_id": 7,
                   "name": "Rodrygo Goes",
                   "position": "FW",
                   "rating": 8.8,
@@ -144,6 +151,7 @@
               "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/manchester-city.png",
               "players": [
                 {
+                  "player_id": 8,
                   "name": "Ederson Moraes",
                   "position": "GK",
                   "rating": 5.9,
@@ -152,6 +160,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 9,
                   "name": "Ruben Dias",
                   "position": "DF",
                   "rating": 6.1,
@@ -160,6 +169,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 10,
                   "name": "Kyle Walker",
                   "position": "DF",
                   "rating": 7.5,
@@ -168,6 +178,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 11,
                   "name": "Rodrigo",
                   "position": "MF",
                   "rating": 8.7,
@@ -176,6 +187,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 12,
                   "name": "Kevin de Bruyne",
                   "position": "MF",
                   "rating": 8.8,
@@ -184,6 +196,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 13,
                   "name": "Erling Haaland",
                   "position": "FW",
                   "rating": 7.5,
@@ -192,6 +205,7 @@
                   "team": 2
                 },
                 {
+                  "player_id": 14,
                   "name": "Phil Foden",
                   "position": "FW",
                   "rating": 6.2,
@@ -225,6 +239,7 @@
               "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/manchester-city.png",
               "players": [
                 {
+                 "player_id": 1,
                   "name": "Ederson Moraes",
                   "position": "GK",
                   "rating": 5.9,
@@ -233,6 +248,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 2,
                   "name": "Ruben Dias",
                   "position": "DF",
                   "rating": 6.1,
@@ -241,6 +257,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 3,
                   "name": "Kyle Walker",
                   "position": "DF",
                   "rating": 7.5,
@@ -249,6 +266,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 4,
                   "name": "Rodrigo",
                   "position": "MF",
                   "rating": 8.7,
@@ -257,6 +275,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 5,
                   "name": "Kevin de Bruyne",
                   "position": "MF",
                   "rating": 8.8,
@@ -265,6 +284,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 6,
                   "name": "Erling Haaland",
                   "position": "FW",
                   "rating": 7.5,
@@ -273,6 +293,7 @@
                   "team": 2
                 },
                 {
+                 "player_id": 7,
                   "name": "Phil Foden",
                   "position": "FW",
                   "rating": 6.2,
@@ -288,6 +309,7 @@
               "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/psg.png",
               "players": [
                 {
+                  "player_id": 8,
                   "name": "Gianluigi Donnarumma",
                   "position": "GK",
                   "rating": 5.1,
@@ -296,6 +318,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 9,
                   "name": "Marquinhos",
                   "position": "DF",
                   "rating": 7.9,
@@ -304,6 +327,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 10,
                   "name": "Achraf Hakimi",
                   "position": "DF",
                   "rating": 7.8,
@@ -312,6 +336,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 11,
                   "name": "Vitinha",
                   "position": "MF",
                   "rating": 7.0,
@@ -320,6 +345,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 12,
                   "name": "Zaire Emery",
                   "position": "MF",
                   "rating": 5.9,
@@ -328,6 +354,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 13,
                   "name": "Ousmane Dembele",
                   "position": "FW",
                   "rating": 6.9,
@@ -336,6 +363,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 14,
                   "name": "Kylian Mbappe",
                   "position": "FW",
                   "rating": 9.2,
@@ -369,75 +397,14 @@
         {
           "match_id": 3,
           "teams": [
-            {
-              "team_id": 1,
-              "team_name":"Real Madrid",
-              "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/real-madrid.png",
-              "players": [
-                {
-                  "name": "Thibo Courtois",
-                  "position": "GK",
-                  "rating": 7.9,
-                  "performance":7.0,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/COURTOIS.png",
-                  "team": 1
-                },
-                {
-                  "name": "Antonio Rudiger",
-                  "position": "DF",
-                  "rating": 8.1,
-                  "performance":9.0,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/RUDIGER.png",
-                  "team": 1
-                },
-                {
-                  "name": "Dani Carvajal",
-                  "position": "DF",
-                  "rating": 6.9,
-                  "performance":8.6,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/CARVAJAL.png",
-                  "team": 1
-                },
-                {
-                  "name": "Jude Bellingham",
-                  "position": "MF",
-                  "rating": 8.9,
-                  "performance":7.0,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/BELLINGHAM.png",
-                  "team": 1
-                },
-                {
-                  "name": "Luka Modric",
-                  "position": "MF",
-                  "rating": 7.4,
-                  "performance":7.3,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/MODRIC.png",
-                  "team": 1
-                },
-                {
-                  "name": "Vini Jr",
-                  "position": "FW",
-                  "rating": 9.0,
-                  "performance":6.9,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/VINI.png",
-                  "team": 1
-                },
-                {
-                  "name": "Rodrygo Goes",
-                  "position": "FW",
-                  "rating": 6.8,
-                  "performance":7.0,
-                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/RODRYGO.png",
-                  "team": 1
-                }
-              ]
-            },
+           
             {
               "team_id": 3,
               "team_name":"PSG",
               "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/psg.png",
               "players": [
-                {
+                {               
+                  "player_id": 1,
                   "name": "Gianluigi Donnarumma",
                   "position": "GK",
                   "rating": 5.1,
@@ -446,6 +413,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 2,
                   "name": "Marquinhos",
                   "position": "DF",
                   "rating": 7.9,
@@ -454,6 +422,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 3,
                   "name": "Achraf Hakimi",
                   "position": "DF",
                   "rating": 7.8,
@@ -462,6 +431,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 4,
                   "name": "Vitinha",
                   "position": "MF",
                   "rating": 7.0,
@@ -470,6 +440,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 5,
                   "name": "Zaire Emery",
                   "position": "MF",
                   "rating": 5.9,
@@ -478,6 +449,7 @@
                   "team": 3
                 },
                 {
+                  "player_id": 6,
                   "name": "Ousmane Dembele",
                   "position": "FW",
                   "rating": 6.9,
@@ -486,12 +458,83 @@
                   "team": 3
                 },
                 {
+                  "player_id": 7,
                   "name": "Kylian Mbappe",
                   "position": "FW",
                   "rating": 9.2,
                   "performance":7.1,
                   "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/psg/hero_23-24_0004_mbappe.png",
                   "team": 3
+                }
+              ]
+            },
+            {
+              "team_id": 1,
+              "team_name":"Real Madrid",
+              "team_logo":"https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/logo-images/real-madrid.png",
+              "players": [
+                {
+                  "player_id": 8,
+                  "name": "Thibo Courtois",
+                  "position": "GK",
+                  "rating": 7.9,
+                  "performance":7.0,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/COURTOIS.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 9,
+                  "name": "Antonio Rudiger",
+                  "position": "DF",
+                  "rating": 8.1,
+                  "performance":9.0,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/RUDIGER.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 10,
+                  "name": "Dani Carvajal",
+                  "position": "DF",
+                  "rating": 6.9,
+                  "performance":8.6,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/CARVAJAL.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 11,
+                  "name": "Jude Bellingham",
+                  "position": "MF",
+                  "rating": 8.9,
+                  "performance":7.0,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/BELLINGHAM.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 12,
+                  "name": "Luka Modric",
+                  "position": "MF",
+                  "rating": 7.4,
+                  "performance":7.3,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/MODRIC.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 13,
+                  "name": "Vini Jr",
+                  "position": "FW",
+                  "rating": 9.0,
+                  "performance":6.9,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/VINI.png",
+                  "team": 1
+                },
+                {
+                  "player_id": 14,
+                  "name": "Rodrygo Goes",
+                  "position": "FW",
+                  "rating": 6.8,
+                  "performance":7.0,
+                  "player_image": "https://raw.githubusercontent.com/aiswaryajayadev/Sevens/master/Assets/player-image/real%20madrid/RODRYGO.png",
+                  "team": 1
                 }
               ]
             }
