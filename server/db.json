@@ -12,17 +12,21 @@
     }
   ],
   "users": [
-    {
-      "id": 1,
-      "username": "user1",
-      "name": "User One"
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "name": "User Two"
-    }
-  ],
+        {
+          "id": 1,
+          "username": "user1",
+          "name": "User One",
+          "match_score": 76,
+          "leader_score": 10
+        },
+        {
+          "id": 2,
+          "username": "user2",
+          "name": "User Two",
+          "match_score": 96,
+          "leader_score": 15
+        }
+      ],
   "comments": [
     {
       "id": 1,
