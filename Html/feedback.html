@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../Style/feedback.css">
+    <script src="../api/feedback_post.js"></script>
 </head>
 <body class="opacity-25">
     <div class="feedback-page-container bg-opacity-50">
@@ -26,7 +27,7 @@
                             <textarea class="form-control" id="feedback-text" rows="5" placeholder="Express your thoughts about the game" name="user-feedback" required></textarea>
                         </div>
                         <div id="submit-button-div" class="text-center">
-                            <button type="submit" class="btn btn-primary" id="feedback-submit-button">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="feedback-submit-button" onclick="postFeedback();">Submit</button>
                         </div>
                     </form>
                 </div>
