@@ -10,9 +10,9 @@ const fetchData = async () => {
             
 
             <div class="match-box">
-                <img src="../Assets/team1.png" style="height: 70px;" alt="">
+                <img src="${match.teams[0].team_logo}" style="height: 70px;" alt="">
                 <a href="./user-entries.html?value=${match.match_id}"><h4>${match.teams[0].team_name} vs ${match.teams[1].team_name}</h4></a>
-                <img src="../Assets/team2.png" style="height: 70px;" alt="">
+                <img src="${match.teams[1].team_logo}" style="height: 70px;" alt="">
 
             </div>  
 
