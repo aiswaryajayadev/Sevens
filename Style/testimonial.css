@@ -1,0 +1,17 @@
+body{
+    background-image: url("../Assets/background-testimonials.jpg");
+    background-size:cover;
+    font-family: Helvetica,sans-serif;
+}
+
+#testimonials-title{
+    margin-bottom: 100px;
+}
+.testimonial-container{
+    margin-top: 24px;
+    margin-left: 250px;
+    display:flex; 
+    justify-content: center;
+    text-align: justify;
+    width:80%;
+}

@@ -1,25 +1,25 @@
-.leaderBoardSession {
-  background-image: url("../Assets/leaderboard.jpg");
-  background-size: cover;
-}
-
-
-@keyframes fadeInUp {
-  from {
-      opacity: 0;
-      transform: translateY(20px);
+.rounded-table {
+    border-radius: 10px; 
+    overflow: hidden; 
   }
-  to {
-      opacity: 1;
-      transform: translateY(0);
+   
+   
+  @keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
   }
-}
-
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.fadeInUp {
-  animation-name: fadeInUp;
-}
+   
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+   
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
