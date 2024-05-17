@@ -1,5 +1,5 @@
  .scoreCardSession{
-    height: 100%;
+    height: 100vh;
     background-image: url("../Assets/scorecard.jpg");
     background-size: cover;
     margin-bottom: 0px;

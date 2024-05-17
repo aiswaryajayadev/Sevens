@@ -5,18 +5,18 @@ document.getElementById("numUsers").addEventListener("input", function () {
   } 
   else {
     var userFormsDiv = document.getElementById("user-entries-box");
-    userFormsDiv.innerHTML = ""; // Clear previous inputs
+    userFormsDiv.innerHTML = ""; 
 
     for (var i = 0; i < numUsers; i++) {
       var input = document.createElement("input");
-      // var label=document.createElement('label');
+     
       input.type = "text";
       input.placeholder = "Username " + (i + 1);
       input.id = "user-" + (i + 1);
       console.log(input.id);
-      // input.placeholder = 'User ' + (i + 1) + ' Name';
+     
       userFormsDiv.appendChild(input);
-      // userFormsDiv.appendChild(label);
+     
     }
 
     var nextLink = document.getElementById("nextLink");
@@ -30,7 +30,7 @@ document.getElementById("numUsers").addEventListener("input", function () {
       localStorage.setItem("usernames", JSON.stringify(usernames));
 
      
-      // var usersObject = createUsersObject(usernames);
+     
       
       nextLink.href = `../Html/playerSelection.html?value=${value1}`;
     });

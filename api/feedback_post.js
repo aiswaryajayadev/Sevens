@@ -12,7 +12,7 @@ const postFeedback = () => {
 
     console.log(newFeedback);
 
-    // Post the new feedback data to db.json
+    
     fetch('http://localhost:3000/feedbacks', {
         method: 'POST',
         headers: {
