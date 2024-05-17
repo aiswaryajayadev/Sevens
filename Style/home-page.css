@@ -3,6 +3,21 @@
     padding: 0;
     
 }
+.home-page-logo{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* height: 20px; */
+}
+.home-page-logo img{
+    height: 260px;
+    width: 260px;
+    border-radius: 80%;
+    margin-bottom: 100px;
+   
+}
 .home-page-a{
     text-decoration: none;
     color: white;
@@ -60,8 +75,12 @@
 
 .home-page-row{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 30px;
     justify-content: space-between;
+    margin-bottom: 8px;
+    position: relative;
+    top:-100px;
     
 }
 
@@ -80,5 +99,5 @@
     content:'';
     position:absolute;
     inset:8px;
-    background:rgb(29, 26, 62);
+    background:rgb(19, 19, 20);
 }
