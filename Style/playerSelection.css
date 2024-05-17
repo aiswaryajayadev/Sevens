@@ -5,9 +5,16 @@
 
 }
 
-
+h1{
+  position: relative;
+  top:30px;
+  color: white;
+  text-align: center;
+}
 
 .ps-container {
+  background-color: #fff;
+  margin-top: 60px;
   text-align: center;
   margin-left: -40px;
 
@@ -34,7 +41,7 @@
   width: 100px;
   height: 100px;
   padding-left: 50px;
-  background-image: url("../Assets/download.jpg");
+  
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -67,7 +74,8 @@
 .playerSelection-image-class {
   display: grid;
   grid-template-columns: repeat(auto-fill, 53px);
-
+  /* display: flex;
+  justify-content: space-between; */
   margin-top: 32px;
   align-items: center;
 
@@ -75,14 +83,26 @@
 
 }
 
+#playerSelection-row1{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .playerSelection-image {
   display: grid;
   grid-template-columns: repeat(auto-fill, 50px);
 }
 
+.heading2{
+
+  margin-top: 300px;
+}
+
 .playerSelection-select-button {
   margin-left: 600px;
-  margin-top: 40px;
+  position: relative;
+    top: -35px;
   background-color: #0078d0;
   border: 0;
   border-radius: 56px;
@@ -246,6 +266,7 @@
 
 h2 {
   color: white;
+  
 }
 
 p {
@@ -255,7 +276,8 @@ p {
 .playerSelection-profile-card-1 {
   margin-bottom: 50px;
   margin-top: 30px;
-  margin-left: -70px;
+  color: black;
+  /* margin-left: -70px; */
 }
 
 .tick_mark {

@@ -5,14 +5,16 @@ const fetchData = async () => {
     const productContainer = document.getElementById('match-container-id');
     matches.map((match) => {
         let productCard = document.createElement('div');
-        productCard.className = " product-card";
+        productCard.className = "card product-card";
         productCard.innerHTML = `
             
 
             <div class="match-box">
                 <img src="${match.teams[0].team_logo}" style="height: 70px;" alt="">
-                <a href="./user-entries.html?value=${match.match_id}"><h4>${match.teams[0].team_name} vs ${match.teams[1].team_name}</h4></a>
+                <a href="./user-entries.html?value=${match.match_id}">
+                 <h4>${match.teams[0].team_name} vs ${match.teams[1].team_name}</h4></a>
                 <img src="${match.teams[1].team_logo}" style="height: 70px;" alt="">
+                
 
             </div>  
 
